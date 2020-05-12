@@ -28,7 +28,7 @@ public class Trapezio {
 	 * @return AREA DEL TRAPEZIO
 	 */
 	public float calcolaArea() {
-		return ((baseMag * baseMin) * alt) / 2; // errore
+		return ((baseMag + baseMin) * alt) / 2; // errore risolto
 	}
 
 	/**
